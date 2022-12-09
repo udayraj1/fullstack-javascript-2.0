@@ -42,9 +42,6 @@ main{
     justify-content: center;
 }
 
-main div{
-    flex-direction: row;
-}
 .leftsection {
     width: 40%;
 }
@@ -55,4 +52,15 @@ main div{
 
 .leftsection p{
     margin: 5% 0;
+}
+
+.rightsection{
+    width: 60%;
+    margin-bottom: 50px;
+}
+.rightsection div {
+    /* margin-left: 10px; */
+    display: flex;
+    gap: 25px;
+    margin: 25px 0px;
 }
