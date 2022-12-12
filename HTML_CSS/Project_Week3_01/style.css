@@ -1,0 +1,36 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+nav{
+    
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav div ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.nav-button{
+    background-color: #4294d8;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+nav div ul li{
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
