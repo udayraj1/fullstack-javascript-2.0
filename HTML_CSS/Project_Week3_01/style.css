@@ -3,10 +3,14 @@
 
 nav{
     
-    justify-content: flex-start;
+    justify-content: space-around;
     display: flex;
     align-items: center;
     gap: 25px;
+}
+
+nav :last-child{
+    margin-left: auto
 }
 
 nav div ul {
@@ -33,4 +37,13 @@ nav div ul li{
     display: flex;
     align-items: center;
     width: auto;
+}
+
+.banner-container :first-child{
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+span{
+    color:#4294d8;
 }
