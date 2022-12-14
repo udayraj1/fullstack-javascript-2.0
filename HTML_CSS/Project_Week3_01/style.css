@@ -1,12 +1,14 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
-
+*{
+    margin: 5px 5px;
+}
 nav{
     
     justify-content: space-around;
     display: flex;
     align-items: center;
-    gap: 25px;
+    /* gap: 25px; */
 }
 
 nav :last-child{
@@ -41,8 +43,15 @@ nav div ul li{
 
 .banner-container :first-child{
     flex-wrap: wrap;
-    justify-content: stretch;
+    margin: 10px 0px;
+    justify-content: start;
 }
+
+.banner-container :first-child{
+    /* flex-wrap: wrap; */
+    justify-content: right;
+}
+
 
 span{
     color:#4294d8;
