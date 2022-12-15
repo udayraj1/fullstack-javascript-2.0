@@ -1,4 +1,4 @@
-Normal text we can write normally
+This is a normal text
 
 Next is heading 1
 
@@ -47,12 +47,13 @@ Link with tooltip: this will be achieved as below
 
 Image: showing images in markdown is achieved as below //If the image is broken or not available the alternate text will be displayed
 
-![Image Alternative text](./HTML_CSS/Project%203/assets/banner.png)
+![Image Alternative text](../HTML_CSS/Project%203/assets/banner.png)
 
 Table: table is shown as below with the help of | symbols 
+
 |Heading 1|Heading 2|Heading 3|
 |---|---|---|
-|Data 1|Data 2 for heading 2|Data 3|
+|Data 1|Data 2 |Data 3|
 
 Highlighted word : highlighted words are shown as putting the text in the backtic symbols
 

@@ -1,0 +1,14 @@
+body{
+    background-color: #c0a9a9;
+}
+
+.htmlsection{
+    align-items: center;
+    justify-content: center;
+   
+}
+.projectitems{
+    display: flex;
+    color: aqua;
+    
+}

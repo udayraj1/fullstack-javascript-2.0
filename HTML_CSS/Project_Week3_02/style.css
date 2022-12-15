@@ -5,11 +5,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+
+}
+body{
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-size: 150px; */
+  width: 1440px;
+  height: 1024px;
+}
 .navbar{
     display: flex;
     background-color: black;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     color: aliceblue;
 }
 
@@ -40,4 +51,9 @@
 .list li{
     justify-content: space-around;
     margin-left: 30px;
+}
+
+section{
+    text-align: center;
+    
 }
