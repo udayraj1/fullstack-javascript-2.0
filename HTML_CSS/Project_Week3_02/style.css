@@ -53,7 +53,23 @@ body{
     margin-left: 30px;
 }
 
-section{
+.hero{
+    margin-top:100px ;
     text-align: center;
+    color: aliceblue;
     
+}
+.hero-heading{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: larger;
+}
+.button-large{
+    color: aliceblue;
+    font-weight: 00;
+    border: none;
+   border-radius: 4px;
+    padding: 15px 15px;
+    background-color: rgb(189, 25, 148);
 }
