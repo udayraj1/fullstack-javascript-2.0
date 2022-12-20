@@ -5,9 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-img{
-
-}
 body{
     background-image: url("assets/bg.png");
     background-repeat: no-repeat;
@@ -20,7 +17,7 @@ body{
     display: flex;
     background-color: black;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: aliceblue;
 }
 
@@ -36,8 +33,8 @@ body{
 }
 
 .line{
-    border-left: 3px solid white;
-    height: 50px;
+    border-left: 1px solid white;
+    height: 80px;
     margin-left: 80px;
   }
 
@@ -60,16 +57,30 @@ body{
     
 }
 .hero-heading{
-    display: flex;
+     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: larger;
+    font-weight: 800;
+    font-size: 80px;
 }
+
+.hero-description{
+    display: flex;
+    justify-content: center;
+    margin:0px 50px; 
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 35px;
+}
+
 .button-large{
+    font: 800;
     color: aliceblue;
-    font-weight: 00;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 50px;
     border: none;
-   border-radius: 4px;
+   border-radius: 15px;
     padding: 15px 15px;
     background-color: rgb(189, 25, 148);
 }
