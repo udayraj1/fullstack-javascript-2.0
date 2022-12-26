@@ -1,0 +1,41 @@
+/*method 2 to write the css we can write css in a seperate file with extension of .css and then we can link this css in our html document in the head tag by link:css property */
+      
+/* 2. individual selector */
+p {
+    border: 1px solid rgb(187, 76, 25);
+  }
+  /* 3. class and id selector */
+  .warning {
+    font-style: italic;
+  }
+  #danger {
+    text-decoration: line-through ;
+    font-weight: 700;
+  }
+  /* 4. and selector (chained) */
+  li.bg-black.text-white{
+    text-shadow: 4px 4px 3px #77f;
+  }
+  /* 5. combined selector */
+  section, li {
+    font-weight: 700;
+  }
+
+  /* 6. inside an element */
+  div ul li {
+       text-align: center;
+       list-style: none;
+  }
+  /* 7. direct child */
+  div > li > p {
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+  }
+
+  /* 8. sibling  ~ or + */
+  .sibling + p {
+    text-decoration: underline;
+    border: none;
+  }

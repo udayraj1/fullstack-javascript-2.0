@@ -5,58 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
     <style>
-     
-      /* universal selector */
+     /* method 1 to write the css we can write within the same html file b adding <style> tag in the <head> tag of the document */
+      /* 1. universal selector */
       * {
-        background-color: #4d4d4d;
+        background-color: #daffda;
+        margin: 20px 10px;
        
-      }
-
-      /* individual selector */
-      p {
-        /* background-color: #d1ea76; */
-        border: #d1ea76;
-        border-radius: 10px;
-      }
-      /* class and id selector */
-      .warning {
-        background-color: #ef9323;
-        color: #FFFFFF;
-      }
-      #danger {
-        background-color: #e93916;
-        color: #FFFFFF;
-      }
-      /* and selector (chained) */
-      li.bg-black.text-white{
-        background-color: #000;
-        color: #ef9323;
-      }
-      /* combined selector */
-      span, li {
-        background-color: burlywood;
-      }
-
-      /* inside an element */
-      div ul li {
-        background-color: #4b35f1;
-      }
-      /* direct child */
-      div > li > p {
-        background-color: #7667e4;
-      }
-
-      /* sibling  ~ or + */
-      .sibling + p {
-        background-color: pink;
       }
     </style>
   </head>
   <body>
-    <div>Welcome to live class</div>
-    <span>Span is just a span, nothing more</span>
+    <div class="warning">Welcome to CSS selectors demo</div>
+    <span id="danger">Span is just a span, nothing more</span>
     <p>We all know paragraph</p>
     <ul>
       <li class="bg-black text-white">item1</li>
@@ -65,7 +27,7 @@
       <li >item4</li>
       <li>item5</li>
     </ul>
-
+<section>This is a content in section</section>
     <div>
       <p>lorem</p>
       <li>awesome</li>
@@ -74,13 +36,15 @@
         <li>highlight me</li>
       </ul>
     </div>
-
+<div>
+  <li> direct child test <p>This is for direct child relation</p> </li>
+</div>
     <section>
-      <p class="sibling">Test 1</p>
-      <p >Test 2</p>
-      <p>Test 3</p>
-      <p >Test 4</p>
-      <p>Test 5</p>
+      <p class="sibling">demo Test 1</p>
+      <p >Adjascent sibling combinator Test</p>
+      <p>demo Test 3</p>
+      <p >demo Test 4</p>
+      <p>demo Test 5</p>
     </section>
   </body>
 </html>
