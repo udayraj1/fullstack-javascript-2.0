@@ -40,3 +40,13 @@
     text-decoration: underline;
     border: none;
   }
+
+  div > h1::before {
+    /* content: '🔗'; */
+    content: open-quote;
+}
+
+div > h1::after {
+  content: close-quote;
+  
+}
