@@ -1,0 +1,40 @@
+.topsection{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-left{
+    width: 100px;
+    height: 100px;
+    background-color: #f65314;
+}
+.top-right{
+    width: 100px;
+    height: 100px;
+    background-color: #7cbb00;
+}
+
+.bottomsection{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-left{
+    width: 100px;
+    height: 100px;
+    background-color: #00a1f1; 
+}
+.bottom-right{
+    width: 100px;
+    height: 100px;
+    background-color: #ffbb00;
+}
+#companyname{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
