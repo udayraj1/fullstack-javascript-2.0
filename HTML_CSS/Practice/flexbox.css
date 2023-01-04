@@ -1,0 +1,55 @@
+.item-reverse{
+    border: 2px solid black;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+#flex{
+    align-self: flex-start;
+}
+
+.container-reverse{
+    display: flex;
+    height: 100px;
+    border: 1px solid black;
+    flex-direction: row-reverse;
+    /* text-align: center;
+     */
+     justify-content: center;
+     
+     /* justify-content: center aligns the child items to the center on horizontal axis*/
+     align-items: center;
+     /* align items:center aligns the child items to the center on verticle axis
+     other possible values for it are
+     align-items: baseline;
+      align-items: flex-end;
+       align-items: flex-start;
+       align-items: stretch;
+     */
+     
+}
+
+.item-column{
+    border: 2px solid black;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    
+    
+}
+.container-column{
+    display: flex;
+    width: 70px;
+    border: 1px solid black;
+    flex-direction: column;
+    /*  Other possible values for flex direction
+    flex-direction: row;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; */
+    /* Gap is parent level property */
+    gap: 5px;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
