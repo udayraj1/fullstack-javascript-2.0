@@ -28,3 +28,19 @@
 .hero-container{
     display: flex;
 }
+.square{
+    position: relative;
+    left:200px;
+    top:200px;
+}
+div > img {
+    position:absolute;
+    left: 10px;
+    bottom: 20px
+    
+}
+.star{
+    position: relative;
+    left:600px;
+    /* top:100px */
+}
