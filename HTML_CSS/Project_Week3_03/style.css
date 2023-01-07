@@ -10,15 +10,14 @@
 .list{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 40px;
 }
-.list li{
-    justify-content: space-between;
-}
+
 .button-group{
     display: flex;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
+    justify-content: center;
 }
 .nav-button{
     padding: 7px 35px;
@@ -30,17 +29,17 @@
 }
 .square{
     position: relative;
-    left:200px;
+    left:210px;
     top:200px;
 }
 div > img {
     position:absolute;
     left: 10px;
-    bottom: 20px
+    bottom: 20px;
     
 }
-.star{
+/* .star{
     position: relative;
     left:600px;
-    /* top:100px */
-}
+    
+} */
