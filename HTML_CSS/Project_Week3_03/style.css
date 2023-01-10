@@ -38,8 +38,36 @@ div > img {
     bottom: 20px;
     
 }
-/* .star{
+.star:first-of-type{
     position: relative;
     left:600px;
     
-} */
+}
+.star:last-of-type{
+    position: relative;
+    top:600px;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+
+.hero-container-right h1{
+    font-size: 50px;
+}
+
+.button-email{
+    padding: 3px 15px;
+    border-radius: 7px;
+    /* border: black; */
+}
+.button-join{
+    padding: 3px 15px;
+    border-radius: 7px;
+    background-color: #000000 ;
+    color: #ffffff;
+    border: none;
+}

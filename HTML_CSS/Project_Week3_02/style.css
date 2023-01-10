@@ -23,6 +23,7 @@ body{
 
 .navbar :last-child{
     margin-left: auto;
+    margin-right: 30px;
 }
 
 .button-small{ 
@@ -34,7 +35,7 @@ body{
 
 .line{
     border-left: 1px solid white;
-    height: 80px;
+    height: 60px;
     margin-left: 80px;
   }
 
@@ -42,6 +43,7 @@ body{
     display: flex;
     list-style: none;
     align-items: center;
+    /* justify-content: center; */
     gap: 30px;
 } 
 
@@ -52,23 +54,24 @@ body{
 
 .hero{
     margin-top:100px ;
-    text-align: center;
+    /* text-align: center; */
     color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
 }
 .hero-heading{
-     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     font-weight: 800;
     font-size: 80px;
+    flex-wrap: wrap;
 }
 
 .hero-description{
-    display: flex;
-    justify-content: center;
     margin:0px 50px; 
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     font-weight: 400;
     font-size: 35px;
 }
