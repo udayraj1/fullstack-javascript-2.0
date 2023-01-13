@@ -7,11 +7,12 @@
 }
 body{
     background-image: url("assets/bg.png");
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     /* background-size: cover; */
     /* background-size: 150px; */
-  width: 1440px;
-  height: 1024px;
+  /* width: 1440px;
+  height: 1024px; */
 }
 .navbar{
     display: flex;
@@ -19,6 +20,11 @@ body{
     align-items: center;
     justify-content: space-between;
     color: aliceblue;
+}
+
+.list:first-child::after{
+display: inline;
+
 }
 
 .navbar :last-child{
