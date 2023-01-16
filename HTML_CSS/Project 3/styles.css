@@ -44,17 +44,30 @@ border-color: yellowgreen;
 .topsection{
     display: flex;
     justify-content:  center;
-   align-items: baseline;
+   align-items: flex-start;
    margin: 20px 0px;
     gap: 100px;
      
 }
-.topsection * {
-    flex-wrap: wrap;
+.topsection h1 {
+    /* flex-wrap: wrap; */
     font-weight: 1000;
+    font-size: 40px;
+    width: 300px;
+    text-align: start;
+    justify-content: center;
+}
+
+.topsection p {
+    flex-wrap: wrap;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: start;
+    justify-content: center;
     width: 300px;
 
 }
+
 .bottomsection{
     align-items: center;
     justify-content: center;
