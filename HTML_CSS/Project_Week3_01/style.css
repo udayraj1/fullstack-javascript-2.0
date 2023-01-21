@@ -46,7 +46,7 @@ nav div ul li{
     flex-direction: column;
     justify-content: left;
     text-align: left;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 10px 0px;
     /* width: 40%; */
 
@@ -59,10 +59,23 @@ nav div ul li{
     
 }
 
-h1{
-    font-size: 50px;
-    font-weight: 900;
+.heading-text{
+    font-size: 60px;
+    font-weight: 1000;
+   
+    /* display:block;
+    word-break: break-all; */
+    /* font-size: 45px;
+    font-weight: 1000; */
+    display: block;
+    text-align:left;
+    line-height:1.2;
+    letter-spacing:1px;
+    word-spacing:2px;
 }
+
+   
+
 
 p{
     font-size: 25px;  
