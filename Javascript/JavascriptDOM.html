@@ -8,20 +8,20 @@
 </head>
 <body>
     
-    <canvas id="myCanvas"></canvas>
+  <div id="ID1">this is div 1</div>
 
-    <script>
-    const canvas = document.getElementById("myCanvas");
-    const ctx = canvas.getContext("2d");
+  <script>
+    // document.body.onload = addElement;
+    document.body.addEventListener("click", addElement)
+function addElement() {
+  const newDiv = document.createElement("div");
+  const newContent= document.createTextNode("this is div content");
+  newDiv.appendChild(newContent);
+  const currentDIv=document.getElementById("ID1");
+  document.body.insertBefore(newDiv,currentDIv);
+}
+  </script>
     
-    canvas.addEventListener("click", function(event) {
-      const x = event.clientX;
-      const y = event.clientY;
-      ctx.beginPath();
-      ctx.arc(x, y, 20, 0, 2 * Math.PI);
-      ctx.fill();
-    });
-    </script>
     
 
 </body>
