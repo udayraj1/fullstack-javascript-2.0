@@ -90,4 +90,106 @@ console.log(flag4);
 console.log(flag5);
 console.log(flag6);
 
-console.log("Question 10 all about booleans");
+console.log("Question 10 comparison operators");
+
+console.log("Is 4 greater than 3 ",4>3);
+console.log("Is four greater than or equal to 3 ",4>=3);
+console.log("Is 4 less than 3 ",4<3);
+console.log("Is 4 less than equal than 3 ",4<=3);
+console.log("Is 4 equals to 4(loose check) ",4==4);
+console.log("Is 4 equals to 4(strong check) ",4===4);
+console.log("Is 4 not equals to 4 ",4!=4);
+console.log("Is 4 not equals to 4 ",4!==4);
+console.log("Is 4 not equals to string 4 ",4!='4');
+console.log("Is 4 equals to 4 string (lose check)",4=='4');
+console.log("Is 4 not equals to 4 (strong check)",4==='4');
+
+console.log("Pending last");
+
+console.log("Question 11 All about date objects");
+
+const d= new Date();
+ console.log("The the year today is "+d.getFullYear());
+ console.log("The the month today as a number is "+d.getMonth()+1);
+ console.log("The today's date is ",d.getDate(),"-",d.getMonth()+1,"-",d.getFullYear());
+ console.log("The day today as a number is "+d.getDate());
+ console.log("The hours now are "+d.getHours());
+ console.log("The minutes now are "+d.getMinutes());
+//The date in past
+ let past = new Date('1970-01-01');
+  
+//The current date
+let now = new Date();
+  //This is time in milliseconds
+let elapsedSeconds = (now - past);
+  
+// by dividing by 1000 we will get the time in seconds
+console.log("The number of seconds elepsed from 1 Jan 1970 to today is ",elapsedSeconds / 1000);
+
+
+console.log("Question 12 Human readable date formats");
+const currentYear= d.getFullYear();
+const currentMonth=d.getMonth()+1;
+const currentDay=d.getDate();
+const currentHour= d.getHours();
+const currentMinutes=d.getMinutes();
+YearMonthDayFormat=currentYear + '-' + currentMonth + '-' + currentDay+ ' ' + currentHour+':'+currentMinutes;
+DayMonthYearFormat=currentDay + '-' + currentMonth + '-' + currentYear+ ' ' + currentHour+':'+currentMinutes;
+DayMonthYearFormat2=currentDay + '/' + currentMonth + '/' + currentYear+ ' ' + currentHour+':'+currentMinutes;
+
+console.log("The YYYY-MM-DD HH:mm format is "+YearMonthDayFormat);
+console.log("The DD-MM-YYYY HH:mm format is "+DayMonthYearFormat);
+console.log("The DD/MM/YYYY HH:mm format is "+DayMonthYearFormat2);
+
+console.log("Question 13 User input using prompt");
+console.log("Pending");
+
+console.log("Question 14 check whether given number is even or odd");
+let number=19;
+if(number%2==0)
+console.log("Even");
+else
+console.log("Odd");
+
+console.log("Question 15 give the grades based on student marks");
+let marks=79;
+if(marks>=80 && marks<=100)
+console.log("Grade A");
+if(marks>=70 && marks<80)
+console.log("Grade B");
+else if(marks>=60 && marks<70)
+console.log("Grade C");
+else if(marks>=50 && marks<59)
+console.log("Grade D");
+else if(marks<50)
+console.log("Grade F");
+
+console.log("Question 16 check which season it is based on the month");
+let theMonth="August"
+
+switch (theMonth) {
+    case "September":
+    case "October":
+    case "November":
+        console.log("Autumn");
+        break;
+    case "December":
+    case "January":
+    case "February":
+        console.log("Winter");
+        break;
+    case "March":
+    case "April":
+    case "May":
+        console.log("Spring");
+        break;
+    case "June":
+    case "July":
+    case "August":
+        console.log("Summer");
+        break;
+
+    default:
+        console.log("Please enter a valid month");
+        break;
+}
