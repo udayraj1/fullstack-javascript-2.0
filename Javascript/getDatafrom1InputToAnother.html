@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script>
+      function submitForm() {
+        document.getElementById("input2").value = document.getElementById("input1").value;
+        document.getElementById("input1").value = "";
+      }
+      
+      function resetForm() {
+        document.getElementById("input2").value = "";
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="input1">
+      <button type="button" onclick="submitForm()">Submit</button>
+      <br><br>
+      <input type="text" id="input2">
+      <button type="button" onclick="resetForm()">Reset</button>
+    </form>
+  </body>
+</html>

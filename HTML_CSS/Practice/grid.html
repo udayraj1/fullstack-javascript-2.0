@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+        .container{
+            background-color: #808080;
+            height: 100vh;
+            width: 100vh;
+            display: grid;
+            /* number of columns I want here I want 3 columns so mentioned 3 100px values here */
+            /* grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px; */
+            /* But we don't use this generally we use below method */
+            grid-template-columns: repeat(3,1fr);
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+
+        .items{
+            background-color: #242323;
+            /* height: 70px;
+            width: 70px;
+            margin: 10px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+</body>
+</html>

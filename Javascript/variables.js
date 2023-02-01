@@ -193,3 +193,56 @@ switch (theMonth) {
         console.log("Please enter a valid month");
         break;
 }
+
+console.log("Question 17 Number of days in a month");
+
+let getMonthFromUser="February"
+if (getMonthFromUser=="January" || getMonthFromUser=="March"  || getMonthFromUser=="May" || getMonthFromUser=="July" || getMonthFromUser=="August" || getMonthFromUser=="October" || getMonthFromUser=="December") {
+    console.log(`The month of ${getMonthFromUser} contains 31 days`);
+}
+else if(getMonthFromUser=="February"){
+console.log(`The month of ${getMonthFromUser} contains 28 days`);
+}
+else{
+    console.log(`The month of ${getMonthFromUser} contains 30 days`);
+
+}
+
+
+console.log("Question 18 Number of days in a month with consideration of leap year");
+let getYearFromUser="2020";
+function isLeapYear(getYearFromUser) {
+    if (getYearFromUser % 400 === 0) {
+        console.log("leap year")
+      return true;
+    } else if (getYearFromUser % 100 === 0) {
+        console.log(" not leap year")
+
+      return false;
+    } else if (getYearFromUser % 4 === 0) {
+        console.log("leap year")
+      
+        return true;
+    } else {
+        console.log(" not leap year")
+
+      return false;
+    }
+  }
+
+  if (getMonthFromUser=="January" || getMonthFromUser=="March"  || getMonthFromUser=="May" || getMonthFromUser=="July" || getMonthFromUser=="August" || getMonthFromUser=="October" || getMonthFromUser=="December") {
+    console.log(`The month of ${getMonthFromUser} contains 31 days`);
+}
+else if(getMonthFromUser=="February"){
+    if(isLeapYear()==true){
+console.log(`The month of ${getMonthFromUser} contains 29 days`);
+ }
+ else if(isLeapYear()==false){
+console.log(`The month of ${getMonthFromUser} contains 28 days`);
+
+ }
+}
+else{
+    console.log(`The month of ${getMonthFromUser} contains 30 days`);
+
+}
